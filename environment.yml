@@ -1,0 +1,11 @@
+name: ramp-covertype
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - scikit-learn>=0.22
+  - joblib
+  - pandas
+  - matplotlib
+  - pip:
+    - ramp-workflow
