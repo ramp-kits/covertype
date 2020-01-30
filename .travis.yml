@@ -18,6 +18,6 @@ install:
 script:
     - flake8 *.py submissions/*/*.py
     - jupyter nbconvert --execute covertype_starting_kit.ipynb --ExecutePreprocessor.kernel_name=$IPYTHON_KERNEL
-    - ramp test --quick-test
+    - ramp-test --quick-test
 notifications:
   email: true
