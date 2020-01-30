@@ -19,4 +19,5 @@ dist/
 
 *starting_kit.html
 *.pkl
-train.csv
+
+.DS_Store
