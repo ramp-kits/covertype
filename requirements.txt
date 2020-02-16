@@ -1,4 +1,6 @@
-numpy
-scikit-learn
-pandas
 matplotlib
+numpy
+pandas
+ramp-workflow
+scikit-learn
+seaborn
