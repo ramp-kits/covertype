@@ -15,6 +15,6 @@ install:
 script:
     - flake8
     - ramp-test --quick-test
-    - jupyter nbconvert --execute covertype_starting_kit.ipynb --ExecutePreprocessor.kernel_name=$IPYTHON_KERNEL
+    - jupyter nbconvert --execute covertype_starting_kit.ipynb --ExecutePreprocessor.kernel_name=$IPYTHON_KERNEL --ExecutePreprocessor.timeout=-1
 notifications:
   email: true
